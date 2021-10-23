@@ -24,6 +24,7 @@ var pokémon = [
     { "id": 148, "name": "Dragonair",  "types": ["dragon"] }
 ];
 
+//console.log the names of the pokémon who have an id greater than 99
 for(var i=0; i<pokémon.length; i++) {
     if(pokémon[i].id > 99) {
         console.log(pokémon[i].name);
